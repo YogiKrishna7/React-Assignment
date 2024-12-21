@@ -2,38 +2,16 @@
 <html>
 
 <head>
-    <title>React Assignment 1</title>
-    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <title>React Assignment 2</title>
+    <script src="main.js" type="module"></script>
 </head>
 
 <body>
-
     <h1>Hello World</h1>
 
     <div id="js"></div>
 
     <div id="react"></div>
-
-    <script>
-        var h2 = document.createElement("h2");
-        h2.innerHTML = "Hello World with JavaScript";
-
-        var rootElement = document.getElementById("js");
-        rootElement.appendChild(h2);
-    </script>
-
-    <script>
-        const reactContainer = React.createElement("div", null,
-            React.createElement("h3", null, "Hello World with React"),
-            React.createElement("p", null, "nested element in react")
-        );
-
-        const htmlRoot = document.getElementById("react");
-        const rootReact = ReactDOM.createRoot(htmlRoot);
-        rootReact.render(reactContainer); 
-    </script>
-
 </body>
 
 </html>

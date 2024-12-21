@@ -1,0 +1,31 @@
+{
+  "name": "react-assignment",
+  "version": "1.0.0",
+  "description": "React Assignment",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YogiKrishna7/React-Assignment.git"
+  },
+  "keywords": [
+    "React",
+    "Assignment",
+    "2"
+  ],
+  "author": "Yogendra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YogiKrishna7/React-Assignment/issues"
+  },
+  "homepage": "https://github.com/YogiKrishna7/React-Assignment#readme",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.13.3",
+    "process": "^0.11.10"
+  }
+}
