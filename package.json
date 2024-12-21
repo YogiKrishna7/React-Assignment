@@ -2,6 +2,8 @@
   "name": "react-assignment",
   "version": "1.0.0",
   "description": "React Assignment",
+  "start":"parcel index.html",
+  "build":"parcel build index.html",
   "scripts": {
     "test": "jest"
   },
